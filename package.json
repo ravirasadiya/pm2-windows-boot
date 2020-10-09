@@ -1,6 +1,6 @@
 {
   "name": "@ravirasadiya/pm2-windows-boot",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "Utility to make PM2 automatically resurrect on Windows boot",
   "author": "Ravi Rasadiya",
   "license": "MIT",
