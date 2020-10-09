@@ -1,8 +1,8 @@
 {
-  "name": "pm2-windows-startup",
+  "name": "@ravirasadiya/pm2-windows-boot",
   "version": "1.0.3",
-  "description": "Utility to make PM2 automatically resurrect on Windows startup",
-  "author": "Mark Lagendijk <mark@lagendijk.info>",
+  "description": "Utility to make PM2 automatically resurrect on Windows boot",
+  "author": "Ravi Rasadiya",
   "license": "MIT",
   "dependencies": {
     "start-on-windows-boot": "^1.0.0",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/marklagendijk/node-pm2-windows-startup"
+    "url": "git+https://github.com/ravirasadiya/pm2-windows-boot"
   },
   "bugs": {
-    "url": "https://github.com/marklagendijk/node-pm2-windows-startup/issues"
+    "url": "https://github.com/ravirasadiya/pm2-windows-boot/issues"
   },
-  "homepage": "https://github.com/marklagendijk/node-pm2-windows-startup",
+  "homepage": "https://github.com/ravirasadiya/pm2-windows-boot",
   "preferGlobal": true,
   "bin": {
     "pm2-startup": "index.js"
@@ -29,5 +29,9 @@
   ],
   "engines": {
     "node": ">=0.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
